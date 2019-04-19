@@ -1,6 +1,6 @@
 sudo apt-get update
 sudo apt-get upgrade -y
-cd /home/<user>/
+cd path/to/home/user
 mkdir projects
 cd projects/
 sudo su
