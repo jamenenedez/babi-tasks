@@ -25,7 +25,7 @@ apt-get update --fix-missing && apt-get install -y --no-install-recommends \
         python-dev \
         python-pip \
         python-virtualenv \
-        python3-numpy \
+        python-numpy \
         software-properties-common \
         unzip \
         wget \
