@@ -1,3 +1,4 @@
+# Instalación de Dependencias
 sudo apt-get update -y
 sudo apt-get upgrade -y
 cd path/to/home/user
@@ -48,5 +49,9 @@ cd neon
 git checkout latest
 sudo make
 . .venv/bin/activate
+
+# Entrenamiento de la red neuronal
 python examples/babi/train.py -e 20 --rlayer_type gru --save_path babi.p -t 15
+
+# Demostración
 python examples/babi/demo.py -t 15 --rlayer_type gru --model_weights babi.p
